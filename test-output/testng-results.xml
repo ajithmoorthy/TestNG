@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-20T14:39:23Z" name="Default suite" finished-at="2019-08-20T14:39:23Z" duration-ms="83">
+    <groups>
+      <group name="moorthy">
+        <method signature="Calculator1.Menu1()[pri:-2, instance:TestNG.Cal.Calculator1@52e677af]" name="Menu1" class="TestNG.Cal.Calculator1"/>
+        <method signature="Calculator1.Menu3()[pri:0, instance:TestNG.Cal.Calculator1@52e677af]" name="Menu3" class="TestNG.Cal.Calculator1"/>
+      </group> <!-- moorthy -->
+      <group name="ajith">
+        <method signature="Calculator1.Menu()[pri:1, instance:TestNG.Cal.Calculator1@52e677af]" name="Menu" class="TestNG.Cal.Calculator1"/>
+        <method signature="Calculator1.Menu2()[pri:1, instance:TestNG.Cal.Calculator1@52e677af]" name="Menu2" class="TestNG.Cal.Calculator1"/>
+      </group> <!-- ajith -->
+    </groups>
+    <test started-at="2019-08-20T14:39:23Z" name="Default test" finished-at="2019-08-20T14:39:23Z" duration-ms="83">
+      <class name="TestNG.Cal.Calculator1">
+        <test-method is-config="true" signature="display()[pri:0, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="display" finished-at="2019-08-20T20:09:23Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method signature="Menu1()[pri:-2, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="Menu1" finished-at="2019-08-20T20:09:23Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu1 -->
+        <test-method signature="Menu3()[pri:0, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="Menu3" finished-at="2019-08-20T20:09:23Z" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [-2] but found [-1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [-2] but found [-1.0]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at TestNG.Cal.Calculator1.Menu3(Calculator1.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu3 -->
+        <test-method signature="Menu()[pri:1, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="Menu" finished-at="2019-08-20T20:09:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+        <test-method signature="Menu2()[pri:1, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="Menu2" finished-at="2019-08-20T20:09:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu2 -->
+        <test-method is-config="true" signature="display1()[pri:0, instance:TestNG.Cal.Calculator1@52e677af]" started-at="2019-08-20T20:09:23Z" name="display1" finished-at="2019-08-20T20:09:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display1 -->
+      </class> <!-- TestNG.Cal.Calculator1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
